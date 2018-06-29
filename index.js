@@ -19,12 +19,15 @@ function multiply (a, b){
 const numbers = multiply(6,8);
 document.getElementById('Multiplication').innerHTML = "your total is: "+numbers;
 
-function power(x, n){
+function Power(x, n){
 let total = x;
 for (let i = 1; i < n; i++){
     total = total * x;
 }
 return total;  
 }
-const powered = power(2, 8);
+const powered = Power(2, 8);
 document.getElementById('Power').innerHTML = 'Your Total is: '+powered;
+
+
+
